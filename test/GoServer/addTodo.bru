@@ -1,0 +1,19 @@
+meta {
+  name: addTodo
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{baseUrl}}/api/v1/todo
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "Title":"Hello2",
+    "Description":"This is Description2",
+    "IsCompleted":true
+  }
+}

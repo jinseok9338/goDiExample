@@ -1,0 +1,15 @@
+# Production Mode : release
+# debug Mode : debug
+export GIN_MODE=debug
+export PORT=8000
+
+# JWT
+export JWT_ACCESS_SECRET=test
+
+# Database Configuration
+export DB_USER=root
+export DB_PASSWORD=1234
+export DB_HOST=192.168.0.2
+export DB_NAME=test
+export DB_PORT=3306
+
